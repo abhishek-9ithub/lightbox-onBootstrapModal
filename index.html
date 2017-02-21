@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Multiselect</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="docs/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="docs/js/jquery.min.js"></script>
+    <script type="text/javascript" src="docs/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="dist/css/lightbox.css" type="text/css">
+    <script type="text/javascript" src="dist/js/lightbox.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>lightbox-onBootstrapModal</h1>
+            <p>lighbox plugin use to view images,videos,iframes with slide option on bootstrap modal</p>
+        </div>
+        <div class="gallery-wrap">
+            <ul class="gallery-menu">
+                <li class="gallery-thumb" title="This is Abhishek" id="li-0" data-prev="" data-next="#li-1" data-src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHWnq7WBNup3eP7azVjWt-PG0RsUXoH_X1MQqIqGxYnyPW_1z4MQ" data-image="img">
+                </li>
+                <li class="gallery-thumb" title="This is Shivam" id="li-1" data-prev="#li-0" data-next="#li-2" data-src="http://vjs.zencdn.net/v/oceans.mp4" data-image="video">
+                </li>
+                <li class="gallery-thumb" title="This is Salil" id="li-2" data-prev="#li-1" data-next="#li-3" data-src="http://hd.wallpaperswide.com/thumbs/jquery-t2.jpg" data-image="img">
+                </li>
+                <li class="gallery-thumb" title="This is Rajni sir" id="li-3" data-prev="#li-2" data-next="#li-4" data-src="http://vjs.zencdn.net/v/oceans.mp4" data-image="video">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--player board start-->
+    <div class="player-wrap" style="display:none;">
+        <div class="player-inner">
+            <div class="player-model">
+                <a class="close-modal" href="javascript:void(0);"><i class="fa fa-times" aria-hidden="true"></i></a>
+                <div class="player-content">
+                    <div class="loader"></div>
+                    <div id="targetBody" data-current=""> </div>
+
+                    <div class="player-caption">
+                        <p> 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It with</p>
+                    </div>
+                    <!--player btn-->
+                    <a href="javascript:void(0);" class="prev-btn" go-prev=""><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                    <a href="javascript:void(0);" class="next-btn" go-next=""><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <!--player btn end-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--player board end-->
+</body>
+
+</html>
